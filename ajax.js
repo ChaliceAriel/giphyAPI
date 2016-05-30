@@ -10,7 +10,7 @@ $( document ).ready(function() {
 		$.ajax({
 			method: "GET",
 			url: 'http://api.giphy.com/v1/gifs/search?q=' + input + apiKey
-			// setup asyncronous promise  
+			// setup asynchronous promise  
 		}).then (function(response){ 
 
 			console.log(response); 
